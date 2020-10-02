@@ -8,3 +8,7 @@ body {
     background-color: whitesmoke;
     padding: 1.5em;
 }
+
+.dark-mode {
+  filter: invert(1) hue-rotate(180deg)
+}
