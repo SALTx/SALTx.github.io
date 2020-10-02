@@ -11,17 +11,21 @@
     <h1>Minecraft Server</h1>
     <header id="header"></header>
     <main>
-      <form action="" class="navbar-form navbar-left">
-        <div class="form-group">
-          <label for="username">Minecraft username: </label>
-          <input
-            type="text"
-            name="username"
-            placeholder="username"
-            class="form-control"
-          />
+      <form>
+        <div class="form-row align-items-center">
+          <div class="col-auto">
+            <label class="sr-only" for="inlineFormInputGroup">Username</label>
+            <div class="input-group mb-2">
+              <div class="input-group-prepend">
+                <div class="input-group-text">@</div>
+              </div>
+              <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Username">
+            </div>
+          </div>
+          <div class="col-auto">
+            <button type="submit" class="btn btn-outline-success mb-2">Whitelist</button>
+          </div>
         </div>
-        <input type="submit" value="Get invite link" class="btn btn-default" />
       </form>
     </main>
     <footer id="footer" class="page-footer font-small blue"></footer>
