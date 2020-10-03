@@ -14,9 +14,18 @@ body {
 }
 
 .featurebox {
-  background-color: whitesmoke;
+  background-color: cyan;
+  width: 30%;
+  padding: 1em;
+  margin: 1em 0;
+}
+.featurebox:hover {
+  background-color: teal;
 }
 
-.featurebox {
-  background-color: teal;
+.version-log {
+  padding: 0.25em;
+  border: 0.5px solid black;
+  border-radius: 2.5px;
+  margin: 0.55em 0;
 }
