@@ -12,3 +12,11 @@ body {
 .dark-mode {
   filter: invert(1) hue-rotate(180deg)
 }
+
+.featurebox {
+  background-color: whitesmoke;
+}
+
+.featurebox {
+  background-color: teal;
+}
